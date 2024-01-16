@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Register page(failed)">
+    <classes>
+      <class name="TastLayer.TestClass">
+        <methods>
+          <include name="validateRegisterUserFunctionality"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TastLayer.TestClass -->
+    </classes>
+  </test> <!-- Register page(failed) -->
+</suite> <!-- Failed suite [Suite] -->
